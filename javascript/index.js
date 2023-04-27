@@ -22,6 +22,35 @@ darkMode.onclick = function(){
     body.classList.toggle('active');
 }
 
+function toggle(){
+    let element = document.getElementById('showAnswer');
+    if(element.style.display === "block"){
+        element.style.display = "none"
+    }else {
+            element.style.display = "block";
+        }
+
+        }
+    
+    function toggle1(){
+        let element = document.getElementById('showAnswer1');
+        if(element.style.display === "block"){
+                element.style.display = "none"
+         }else {
+                    element.style.display = "block";
+            }
+        
+            }
+
+    function toggle2(){
+        let element = document.getElementById("showAnswer2");
+        if(element.style.display === "block"){
+            element.style.display = "none";
+        }else{
+            element.style.display = "block";
+        }
+    }
+
 /*const htmlButton = document.querySelector('[data-js="htmlbutton"]');
 const flexboxButton = document.querySelector('[data-js="flexboxButton"]');
 const cssButton = document.querySelector('[data-js="cssButton"]');
